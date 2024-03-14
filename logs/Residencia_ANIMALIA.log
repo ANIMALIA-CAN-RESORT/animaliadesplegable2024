@@ -1,0 +1,36 @@
+2024-03-14 10:21  INFO 19598 --- [restartedMain] e.p.residencia.ResidenciaApplication     : Starting ResidenciaApplication using Java 17.0.9 with PID 19598 (/home/jose/Escritorio/proyectos-clase/residencia/build/classes/java/main started by jose in /home/jose/Escritorio/proyectos-clase/residencia)
+2024-03-14 10:21 DEBUG 19598 --- [restartedMain] e.p.residencia.ResidenciaApplication     : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-14 10:21  INFO 19598 --- [restartedMain] e.p.residencia.ResidenciaApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-14 10:21  INFO 19598 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-14 10:21  INFO 19598 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-14 10:21  INFO 19598 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-14 10:21  INFO 19598 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 6 JPA repository interfaces.
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-14 10:21  INFO 19598 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2100 ms
+2024-03-14 10:21  INFO 19598 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-14 10:21  INFO 19598 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a46f364
+2024-03-14 10:21  INFO 19598 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://tai.db.elephantsql.com/nwncknwn'
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-14 10:21  INFO 19598 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-14 10:21  WARN 19598 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 11.18.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-03-14 10:21  WARN 19598 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-14 10:21  WARN 19598 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-03-14 10:21  WARN 19598 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_hgbov2frqrebklb635pymgvu5" of relation "clientes_mascotas" does not exist, skipping
+2024-03-14 10:21  WARN 19598 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-03-14 10:21  WARN 19598 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_jd6j38kwkmilmk9kaf7c1hj94" of relation "mascotas_prestaciones" does not exist, skipping
+2024-03-14 10:21  INFO 19598 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-14 10:21  WARN 19598 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-14 10:21  INFO 19598 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-14 10:21  INFO 19598 --- [restartedMain] e.p.residencia.ResidenciaApplication     : Started ResidenciaApplication in 9.485 seconds (process running for 10.992)
+2024-03-14 10:21 DEBUG 19598 --- [restartedMain] e.p.residencia.ResidenciaApplication     : Está funcionando la aplicación ANIMALIA para la Residencia de Animales CAN RESORT
+2024-03-14 10:22  INFO 19598 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 10:22  INFO 19598 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-14 10:22  INFO 19598 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
